@@ -26,9 +26,12 @@ Steps:
 
 [detectMultiScale](https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html?highlight=detectmultiscale#cascadeclassifier-detectmultiscale)
 
-
 3. Use opencv's cv2.rectangle to draw rectangle around detected face.
 
+
+RESULTS:
+
+The results for MTCNN ere better. although there was occurance of false positive seen in MTCNN but accuracy of detection is better for it.
 
 Code : cascade_face_detector.py
 
