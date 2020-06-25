@@ -16,7 +16,7 @@ For detailed training using cascade classifier : https://docs.opencv.org/3.4/dc/
 
 Here i am using already trained xml file provided by Opencv : https://github.com/opencv/opencv/tree/master/data/haarcascades
 
-Original paper on cascade based face detector: https://d1wqtxts1xzle7.cloudfront.net/49703040/Robust_Real-Time_Face_Detection20161018-7210-40857c.pdf?1476846089=&response-content-disposition=inline%3B+filename%3DRobust_Real-Time_Face_Detection.pdf&Expires=1593067287&Signature=GvwOMJshyPiLa5icS5ePDpVmOW4kC0MDBkN-7TfxtzenFinRaItYADwW-ih3zFl59VnX0UX1MBT-Qcn3B8JcXst~EqdkK77x93waPLCz2V-QhdfV6qvCUqVOSHWiEEHePT6iTYO-aYD--0pqUDz3UavH6m3nf53AuPsk4rpzjObfJRF-Q0ZhAL3OZM8Xh4LcKP2zPphWKoKpyb1GyDMxd6G9U4BEieKrJha7zFMte0NCG4U7yNh6Ry~m8Cuj9mm~G2qG1fwocCStnWvGShdm27dMR4nJ1ZfHRMiE-4DODTRluu5JkKDuXauAKeS9ErnSB2DoeuRCOhYP0QISbC-hvA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+Original paper on cascade based face detector: [here](https://d1wqtxts1xzle7.cloudfront.net/49703040/Robust_Real-Time_Face_Detection20161018-7210-40857c.pdf?1476846089=&response-content-disposition=inline%3B+filename%3DRobust_Real-Time_Face_Detection.pdf&Expires=1593067287&Signature=GvwOMJshyPiLa5icS5ePDpVmOW4kC0MDBkN-7TfxtzenFinRaItYADwW-ih3zFl59VnX0UX1MBT-Qcn3B8JcXst~EqdkK77x93waPLCz2V-QhdfV6qvCUqVOSHWiEEHePT6iTYO-aYD--0pqUDz3UavH6m3nf53AuPsk4rpzjObfJRF-Q0ZhAL3OZM8Xh4LcKP2zPphWKoKpyb1GyDMxd6G9U4BEieKrJha7zFMte0NCG4U7yNh6Ry~m8Cuj9mm~G2qG1fwocCStnWvGShdm27dMR4nJ1ZfHRMiE-4DODTRluu5JkKDuXauAKeS9ErnSB2DoeuRCOhYP0QISbC-hvA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
 
 Steps:
 
@@ -24,7 +24,7 @@ Steps:
 
 2.Use detectMultiScale to detects objects of diffrent sizes and returns them as list of rectangles.
 
-(https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html?highlight=detectmultiscale#cascadeclassifier-detectmultiscale)
+[detectMultiScale](https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html?highlight=detectmultiscale#cascadeclassifier-detectmultiscale)
 
 
 3. Use opencv's cv2.rectangle to draw rectangle around detected face.
